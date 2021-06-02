@@ -1,0 +1,15 @@
+
+<div class=" container" style="margin-bottom: 3em;">
+    <div class="card " style="background-color: lemonchiffon; width: 30rem; ">
+        <div class="card-body">
+          <h5 class="card-title lead ">{{todo.TodoText| titlecase }}</h5>
+        </div>
+        <button class="btn btn-danger"(click) ="Addtodelete(todo)" >Delete</button>
+      </div>
+      <div class="form-check " style="margin-top: .5em;">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">
+          Done
+        </label>
+      </div>
+</div>
